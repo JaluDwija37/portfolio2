@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # third party
     "rest_framework",  # required for serving swagger ui's css/js files
     "drf_yasg",
+    "corsheaders",
 
     # own apps
     "about",
@@ -162,5 +163,5 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
     "http://127.0.0.1:8000",
     "http://127.0.0.1:5500",
-    "https://jaludwija37.pythonanywhere.com/"
+    "https://jaludwija37.pythonanywhere.com/",
 ]
